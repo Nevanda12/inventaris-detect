@@ -1,7 +1,7 @@
 # Dockerfile for the InvenTree devcontainer
 # This container is used for development of the InvenTree project, and includes all necessary dependencies for both backend and frontend development.
 
-FROM mcr.microsoft.com/devcontainers/python:3.12-trixie@sha256:5440cb68898d190ad6c6e8a4634ce89d0645bea47f9c8beb75612bb8e3983711
+FROM mcr.microsoft.com/devcontainers/python:3.14-trixie@sha256:f04a1e9c29e371436d6086908eed22ac0ba087bae0f8edb826838283cf3d1726
 
 # InvenTree paths
 ENV INVENTREE_HOME="/home/inventree"
